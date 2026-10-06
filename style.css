@@ -320,4 +320,17 @@ body{
   .nav-links.active {
     display: flex;
   }
+  .footer-section{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    background-color: rgb(13, 13, 56);
+    color: #fff;
+    border-radius: 5px;
+    position:sticky;
+    margin-top: 10px;
+}
 }
