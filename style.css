@@ -292,6 +292,7 @@ body{
     .hero-content {
         flex-direction: column;
         text-align: center;
+        width:100%;
     }
 
     .hero-content img {
@@ -305,7 +306,6 @@ body{
   .toggle-button {
     display: block;
     color: rgb(13, 13, 56);
-    margin-bottom: 10px;
   }
 
   .nav-links {
