@@ -184,18 +184,16 @@ body{
     border-radius: 10px;
 }
 
-.offering-item li i {
-    margin-right: 8px;
+.offering-item ul li i {
+    margin-top: 4px;
     padding: 2px;
     color: #fff;
-    border-radius: 10px;
+    flex:shrink:0;
 }
 .offering-item p{
     font-size: 16px;
-    
     padding:20px;
     color: #fff;
-    font-size: 16px;
     font-family: "Poppins";
 }
 
@@ -212,7 +210,16 @@ body{
 
 .offering-item ul{
     list-style: none;
-    padding-left:20px;
+    padding:0;
+    margin:0;
+    text-align:left;
+}
+.offering-item ul li{
+    display:flex;
+    align-item:flex-start;
+    line-height:1.4;
+    margin:10px;
+    gap:10px;
 }
 .btn{
     font-family: "poppins";
