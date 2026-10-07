@@ -145,6 +145,7 @@ body{
     flex-direction: column;
     padding: 30px;
     color: #fff;
+    background-color: rgb(13, 13, 56);
     border-radius: 10px;
     margin-bottom:60px;
 }
